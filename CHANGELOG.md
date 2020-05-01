@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 6.3.1
+
+- Add support for higher radius values
+
 ## 6.3.0
 
 - Replace legacy string refs
