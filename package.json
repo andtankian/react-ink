@@ -1,5 +1,5 @@
 {
-  "name": "react-ink",
+  "name": "@redwallsolutions/react-ink",
   "version": "6.4.0",
   "description": "A React component for adding material design style ink.",
   "main": "dist/ink.js",
@@ -13,13 +13,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:vigetlabs/react-ink.git"
+    "url": "git@github.com:andtankian/react-ink.git"
   },
   "keywords": [
     "react",
     "material design"
   ],
-  "author": "Viget Labs <developers@viget.com>",
+  "author": "Viget Labs <developers@viget.com> & Andrew Ribeiro",
   "license": "MIT",
   "devDependencies": {
     "@types/react": "^16.3.17",
