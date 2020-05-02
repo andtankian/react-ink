@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 6.4.2
+
+- Fix bundle output property
+
 ## 6.3.1
 
 - Add support for higher radius values
