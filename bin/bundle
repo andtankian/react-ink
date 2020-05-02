@@ -32,6 +32,7 @@ async function build(config) {
       react: 'React'
     },
     file: 'index.min.js',
+    dir: 'dist',
     format: 'cjs',
     name: config.name,
     sourcemap: true
