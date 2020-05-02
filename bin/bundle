@@ -31,8 +31,7 @@ async function build(config) {
     globals: {
       react: 'React'
     },
-    file: 'index.min.js',
-    dir: 'dist',
+    file: config.output,
     format: 'cjs',
     name: config.name,
     sourcemap: true
@@ -41,8 +40,9 @@ async function build(config) {
 
 const packages = [
   {
-    name: 'react-ink',
-    entry: path.resolve('src/index.js')
+    name: 'ReactInk',
+    entry: path.resolve('src/index.js'),
+    output: path.resolve('dist', 'ink.js')
   }
 ]
 

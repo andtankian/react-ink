@@ -1,8 +1,9 @@
 {
   "name": "@redwallsolutions/react-ink",
   "version": "6.4.2",
-  "description": "A React component for adding material design style ink.",
+  "description": "A React component for adding material design style bubble click.",
   "main": "dist/ink.js",
+  "module": "dist/ink.js",
   "scripts": {
     "start": "webpack-dev-server --mode=development",
     "build": "./bin/bundle",
@@ -46,6 +47,5 @@
   "prettier": {
     "semi": false,
     "singleQuote": true
-  },
-  "dependencies": {}
+  }
 }
